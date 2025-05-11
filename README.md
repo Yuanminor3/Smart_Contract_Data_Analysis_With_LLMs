@@ -12,7 +12,7 @@
 ## 📚 Overview
 This project explores how smart contract event data can be extracted from the Ethereum blockchain and used to enable meaningful analysis with large language models (LLMs). We focus on OpenSea's Seaport contract, indexing NFT sales events using **The Graph Protocol**, processing the results with **Python**, and generating structured data for NFT market trend prediction.
 
-## 📄 Demo and Documentation
+## 📄 Documentation and Dataset
 - [📘 Final Report (PDF)](docs/Final_Report.pdf)
 - [📂 NFT Sales Dataset (CSV)](./nft_sales.csv)
 
