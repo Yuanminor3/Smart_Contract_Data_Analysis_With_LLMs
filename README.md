@@ -18,7 +18,7 @@ This project explores how smart contract event data can be extracted from the Et
 
 ## 📦 NFT Sales Data Extraction (Python)
 
-Our Python script (`fetch_nft_sales.py`) connects to the deployed GraphQL subgraph and queries the latest 250 NFT sales captured by the `OrderFulfilled` event of Seaport. The script features:
+Our Python script ([`fetch_sales.py`](./fetch_sales.py)) connects to the deployed GraphQL subgraph and queries the latest 250 NFT sales captured by the `OrderFulfilled` event of Seaport. The script features:
 - 📤 **Robust GraphQL request logic** with retries and error handling
 - 📊 **Automatic conversion** of raw fields into human-readable formats (e.g., ETH price, datetime)
 - 🧹 **Normalization** of addresses for cross-contract aggregation
