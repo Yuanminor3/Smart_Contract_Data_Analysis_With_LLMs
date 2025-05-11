@@ -1,0 +1,9 @@
+type NFTSale @entity(immutable: true) {
+  id: ID!
+  collection: Bytes!      # NFT contract address
+  tokenId: BigInt!        # Token ID
+  price: BigInt!          # Sale price in wei
+  paymentToken: Bytes!    # Currency address (0x0 for ETH)
+  timestamp: BigInt!      # Block timestamp
+  txHash: Bytes!          # Transaction hash
+}
